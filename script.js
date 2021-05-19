@@ -47,7 +47,8 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
-    	$(function() {
+    //	
+    $(function() {
     $('#WAButton').floatingWhatsApp({
     phone: '+919858584982', //WhatsApp Business phone number International format-
     
@@ -57,7 +58,8 @@ $(document).ready(function(){
     buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
     //headerColor: 'crimson', //Custom header color
     //backgroundColor: 'crimson', //Custom background button color
-    position: "right"    
+    position: "right"  
+         });
 
     // owl carousel script
     $('.carousel').owlCarousel({
